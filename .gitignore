@@ -2,3 +2,4 @@ cat .gitignore
 *.[oa]
 *~
 .DS_Store
+*.pyc
