@@ -28,8 +28,8 @@ i = JsonDigger(weather) #  initialize class instance
 r_k = i.get_keys('country') #  search for key 'country'
 r_v = i.get_values(278.05) #  search for value '278.05'
 
-print r_k #  example of response: {u':sys:country': [u'GB']}
-print r_v #  example of response: {u':main:temp': [278.05], u':main:temp_max': [278.05], u':main:temp_min': [278.05]}
+print r_k #  response: {u':sys:country': [u'GB']}
+print r_v #  response: {u':main:temp': [278.05], u':main:temp_max': [278.05], u':main:temp_min': [278.05]}
 ```
 
 More in tester.py!
