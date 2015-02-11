@@ -13,4 +13,5 @@ setup(
   url = 'https://github.com/likedata/py-json-digger',
   download_url = 'https://github.com/likedata/py-json-digger/tarball/0.1',
   keywords = ['python', 'json', 'digger', 'dict', 'nested', 'py', 'dictionary', 'multi-tier'],
-  classifiers = [])
+  classifiers = [],
+)
