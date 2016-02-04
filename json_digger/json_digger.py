@@ -25,6 +25,10 @@ Result: {Key1:Key4:Key199: [[value1,value4],[value4]], Key1:Key100: [value4]}
 
 
 import json
+import sys
+
+if sys.version_info[0] > 2:
+    unicode = str
 
 
 class JsonDiggerFunctions(object):
@@ -174,12 +178,12 @@ class JsonDigger(JsonDiggerFunctions):
         self.keyword = keyword
         try:
             return self.f_dig_for_keys(self.dictionary, self.keyword)
-        except Exception, Error:
-            print Error
+        except Exception as error:
+            print(error)
 
     def get_values(self, keyword):
         self.keyword = keyword
         try:
             return self.f_dig_for_values(self.dictionary, self.keyword)
-        except Exception, Error:
-            print Error
+        except Exception as error:
+            print(error)
