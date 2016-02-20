@@ -1,4 +1,4 @@
-# Python dictionary/JSON digger
+# Python dictionary/JSON digger [![Build Status](https://travis-ci.org/likedata/py-json-digger.svg?branch=master)](https://travis-ci.org/likedata/py-json-digger)
 
 # About
 
