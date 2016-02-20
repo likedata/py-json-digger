@@ -6,7 +6,7 @@ from distutils.core import setup
 setup(
   name = 'json-digger',
   packages = ['json_digger'],
-  version = '0.1',
+  version = '0.2',
   description = 'The script is to help you look either for specific keys or values in multi-tier nested python dictionaries (either native or converted from JSON).',
   author = 'Mikolaj Nowak',
   author_email = 'mikolaj.nowak@likedata.pl',
