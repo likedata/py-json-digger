@@ -17,6 +17,7 @@ $ pip install json-digger
 # Python Version
 
 It has been developed and tested under Python 2.7.
+However it supports also Python 3.
 
 # How to use?
 
